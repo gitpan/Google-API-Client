@@ -5,6 +5,7 @@ MANIFEST
 META.json
 META.yml
 README
+cpanfile
 dist.ini
 eg/adsense/adclients_list.pl
 eg/adsense/adunits_list.pl

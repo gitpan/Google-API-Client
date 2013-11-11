@@ -2,7 +2,8 @@
 abstract: 'A client for Google APIs Discovery Service'
 author:
   - 'Takatsugu Shigeta <shigeta@cpan.org>'
-build_requires: {}
+build_requires:
+  Test::TCP: 0
 configure_requires:
   Module::Build::Tiny: 0.030
 dynamic_config: 0
@@ -20,11 +21,16 @@ no_index:
     - share
     - eg
     - examples
+requires:
+  HTTP::Request: 0
+  JSON: 0
+  URI: 0
+  URI::Escape: 0
 resources:
   bugtracker: https://github.com/comewalk/google-api-perl-client/issues
   homepage: https://github.com/comewalk/google-api-perl-client
   repository: https://github.com/comewalk/google-api-perl-client.git
-version: 0.10
+version: 0.11
 x_contributors:
   - 'Gustavo Chaves <gustavo@gnustavo.com>'
   - 'Takatsugu Shigeta <tshigeta@user200.sixapart.jp>'
