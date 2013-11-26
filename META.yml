@@ -31,8 +31,10 @@ resources:
   bugtracker: https://github.com/comewalk/google-api-perl-client/issues
   homepage: https://github.com/comewalk/google-api-perl-client
   repository: https://github.com/comewalk/google-api-perl-client.git
-version: 0.12
+version: 0.13
 x_contributors:
+  - 'Chylli <chylli.email@gmail.com>'
+  - 'Chylli <chylli@163.com>'
   - 'Gustavo Chaves <gustavo@gnustavo.com>'
   - 'Takatsugu Shigeta <tshigeta@user200.sixapart.jp>'
   - 'Yusuke Ueno <uechoco@gmail.com>'

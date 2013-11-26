@@ -2,7 +2,7 @@ package Google::API::Client;
 
 use strict;
 use 5.008_001;
-our $VERSION = '0.12';
+our $VERSION = '0.13';
 
 use Google::API::Method;
 use Google::API::Resource;
@@ -151,6 +151,8 @@ Yusuke Ueno (uechoco)
 Gustavo Chaves (gnustavo)
 
 Hatsuhito UENO (uehatsu)
+
+chylli
 
 =head1 COPYRIGHT
 
